@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+    background-color: #494848;
+}
+.site-nav ul{
+	display: flex;
+	gap: 26px;
+	list-style: none;
+	padding: 0;
+	margin-left: 160px;
+	margin-top: -5px;
+	padding: 10px;
+}
+
+.site-nav a{
+	display: block;
+	padding: 12px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: darkslategrey;
+	font-weight: 600;
+	font-family: Trebuchet MS;
+	transition: background-color 0.5s ease;
+}
+
+.site-nav a:hover, .site-nav a.active{
+	background: #fff;
+	color: black;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.starttitle{
+	margin-top: -36px;
+	background-color: grey;
+	width: 100%;
+}
+
+.topbar{
+	background-color: darkslategray;
+	width: 100%;
+}
+nav{
+	background-color: darkslategray;
+	width: 100%;
+}
+
+div.floatcon {
+	width: 100%;
+	overflow: auto;
+}
+.floatcon div{
+	width: 50%;
+	float:left;
+}
+
+.startpara h1, .startpara pre{
+	color: white;
+	font-size: 38px;
+	margin-left: 160px;
+	padding-left: 10px;
+}
+.startpara h2{
+	color: white;
+	font-size: 24px;
+	margin-left: 160px;
+	padding-left: 10px;
+}
+.startpara h3{
+	color: white;
+	font-size: 16px;
+	margin-left: 160px;
+	padding-left: 10px;
+}
+
+.lagey ul{
+	display: flex;
+	gap: 26px;
+	list-style: none;
+	padding: 0;
+	margin-left: 160px;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+.lagey a{
+	display: block;
+	padding: 12px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	font-weight: 600;
+	font-family: Trebuchet MS;
+	transition: background-color 0.5s ease;
+}
+
+.lagey a:hover, .site-nav a.active{
+	background: #fff;
+	color: black;
